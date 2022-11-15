@@ -186,13 +186,6 @@ packer.startup({
 			"svrana/neosolarized.nvim",
 			requires = { "tjdevries/colorbuddy.nvim" },
 		})
-		use({
-			"preservim/nerdtree",
-			requires = "kyazdani42/nvim-web-devicons",
-			setup = function()
-				-- Read the following nerdtree section and add what you need
-			end,
-		})
 		use("bluz71/vim-nightfly-guicolors")
 		if paccker_bootstrap then
 			packer.sync()

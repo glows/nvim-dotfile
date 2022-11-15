@@ -17,7 +17,7 @@ require("autocmds")
 require("autopairs")
 require("treesitter")
 
---
+-- 插件配置
 require("plugin-config.telescope")
 require("plugin-config.nvim-tree")
 require("plugin-config.bufferline")
